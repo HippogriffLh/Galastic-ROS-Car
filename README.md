@@ -2,7 +2,7 @@
 以上文件是ROS2小车的雷达驱动和ROS2源码  
 
 ## 介绍
-ROS2版本：Galactic
+ROS2版本：Galactic  
 上位机：Jeston-TX1  
 下位机：STM32  
 
