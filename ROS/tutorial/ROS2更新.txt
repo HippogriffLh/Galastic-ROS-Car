@@ -1,0 +1,22 @@
+ROS2 V2.0更新内容：
+1、更新了系统版本，使用版本为Ubuntu20.04 Galactic，中间件版本为Cyclone DDS。
+2、更新适配的传感器：
+① 在ROS2中适配了Astra Pro相机；
+② 在ROS2中适配了镭神的M10、N10雷达，和乐动雷达LD14、LD06、LD19雷达；
+③ 在ROS2中适配了USB手柄。
+3、增加功能包：
+① slam_toolbox工具保存地图；
+② rrt_exploration自主探索建图；
+③ RTAB-Map 视觉建图导航；
+④ visual_follower视觉跟踪；
+⑤ web_video_server网络视频服务器。
+
+2022.11.25更新：
+
+① 在ROS2中适配了Astra系列、Dabai系列以及gemini相机；
+② 修改M10、N10雷达功能包
+③增加2D导航使用DWB算法的路径规划参数
+④ 修改视觉相关功能包的启动文件
+⑤ 删除ROS1-noetic功能包，但系统中仍可使用noetic开发环境
+
+
