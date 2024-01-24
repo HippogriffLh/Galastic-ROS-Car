@@ -6,7 +6,7 @@ ROS2版本：Galactic
 上位机：Jeston-TX1  
 下位机：STM32  
 
-## 链接
+## 资料
 ROS小车教程:  
 > 链接：https://pan.baidu.com/s/1UQ5ybLe55dHCHb1iOK6vKw?pwd=6xgt  
 > 提取码：6xgt  
