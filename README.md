@@ -1,7 +1,13 @@
 # Galastic-ROS-Car
-以上文件是ROS2小车的雷达驱动和ROS2源码  
+以上文件是ROS2小车的雷达驱动和各个小车的源码  
+
 
 ## 介绍
+ROS1_1：搭载ROS1的小车的源码  
+ROS2_1：搭载ROS2的小车的源码，用于项目  
+ROS2_2：搭载ROS2的小车的源码，用于毕业设计  
+
+ROS1版本：Melodic
 ROS2版本：Galastic  
 上位机：Jeston-TX1  
 下位机：STM32  
