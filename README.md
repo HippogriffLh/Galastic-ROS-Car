@@ -1,11 +1,10 @@
 # Galastic-ROS-Car
 以上文件是ROS2小车的雷达驱动和各个小车的源码  
 
-
 ## 介绍
-ROS1_1：搭载ROS1的小车的源码  
+ROS1_1：搭载ROS1的小车的源码，用于项目
 ROS2_1：搭载ROS2的小车的源码，用于项目  
-ROS2_2：搭载ROS2的小车的源码，用于毕业设计  
+ROS2_2：搭载ROS2的小车的源码，用于FYP  
 
 ROS1版本：Melodic
 ROS2版本：Galastic  
