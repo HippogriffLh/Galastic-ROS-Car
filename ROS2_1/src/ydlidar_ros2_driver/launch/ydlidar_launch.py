@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+############################## Start YDLIDAR ##############################
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch_ros.actions import LifecycleNode
@@ -25,15 +26,18 @@ import os
 
 
 def generate_launch_description():
+    # Get the shared directory of the software package, define the startup configuration parameters and node name
     share_dir = get_package_share_directory('ydlidar_ros2_driver')
     parameter_file = LaunchConfiguration('params_file')
     node_name = 'ydlidar_ros2_driver_node'
 
+    # The startup parameter params_file is in the ydlidar.yaml file
     params_declare = DeclareLaunchArgument('params_file',
                                            default_value=os.path.join(
                                                share_dir, 'params', 'ydlidar.yaml'),
                                            description='FPath to the ROS2 parameters file to use.')
 
+    # Start the YDLIDAR driver node
     driver_node = LifecycleNode(package='ydlidar_ros2_driver',
                                 executable='ydlidar_ros2_driver_node',
                                 name='ydlidar_ros2_driver_node',
@@ -42,12 +46,14 @@ def generate_launch_description():
                                 parameters=[parameter_file],
                                 namespace='/',
                                 )
+
+    # Publish the TF transformation base_to_laser
     tf2_node = Node(package='tf2_ros',
                     executable='static_transform_publisher',
                     name='base_to_laser',
                     arguments=['0.1', '0', '0.2','0', '0', '0','base_footprint','laser'],
                     )
-
+    # Retrieve the information
     return LaunchDescription([
         params_declare,
         driver_node,
