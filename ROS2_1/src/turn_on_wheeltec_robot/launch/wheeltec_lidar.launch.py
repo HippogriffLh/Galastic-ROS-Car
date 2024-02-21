@@ -44,7 +44,8 @@ def generate_launch_description():
             PythonLaunchDescriptionSource(os.path.join(Ld14_launch_dir, 'ld14.launch.py')),)
     Ld06 = IncludeLaunchDescription(
             PythonLaunchDescriptionSource(os.path.join(Ld06_launch_dir, 'ld06.launch.py')),)
-
+    
+    # Add the path of the launch file for Ydlidar 
     Ydld = IncludeLaunchDescription(
             PythonLaunchDescriptionSource(os.path.join(Ydlidar_launch_dir, 'ydlidar_launch.py')),)
                   
