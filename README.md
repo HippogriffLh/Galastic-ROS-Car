@@ -3,7 +3,9 @@
 
 ## 介绍
 ROS1_1：搭载ROS1的小车的源码  
-ROS2_1：搭载ROS2的小车的源码
+ROS2_1：搭载ROS2的小车的源码  
+Yolov5：尖锐物体识别训练结果  
+Simulation：Gazebo模拟源码  
 
 ROS1版本：Melodic  
 ROS2版本：Galastic  
