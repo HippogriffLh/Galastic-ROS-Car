@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/example_switch.dir/example_switch.cpp.o  -o example_switch 

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jeni/astra_s/magic_enum-0.8.2/example/example_switch.cpp
+iostream
+-
+magic_enum_switch.hpp
+-
+
+/home/jeni/astra_s/magic_enum-0.8.2/include/magic_enum.hpp
+array
+-
+cassert
+-
+cstdint
+-
+cstddef
+-
+limits
+-
+type_traits
+-
+utility
+-
+optional
+-
+string
+-
+string_view
+-
+iosfwd
+-
+
+/home/jeni/astra_s/magic_enum-0.8.2/include/magic_enum_switch.hpp
+magic_enum.hpp
+/home/jeni/astra_s/magic_enum-0.8.2/include/magic_enum.hpp
+
