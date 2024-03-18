@@ -1,0 +1,14 @@
+{
+  "package_name": "astra_camera_msgs",
+  "non_idl_tuples": [
+    "/home/jeni/astra_s/src/ros2_astra_camera/astra_camera_msgs:msg/DeviceInfo.msg",
+    "/home/jeni/astra_s/src/ros2_astra_camera/astra_camera_msgs:msg/Extrinsics.msg",
+    "/home/jeni/astra_s/src/ros2_astra_camera/astra_camera_msgs:msg/Metadata.msg",
+    "/home/jeni/astra_s/src/ros2_astra_camera/astra_camera_msgs:srv/GetDeviceInfo.srv",
+    "/home/jeni/astra_s/src/ros2_astra_camera/astra_camera_msgs:srv/GetCameraInfo.srv",
+    "/home/jeni/astra_s/src/ros2_astra_camera/astra_camera_msgs:srv/GetCameraParams.srv",
+    "/home/jeni/astra_s/src/ros2_astra_camera/astra_camera_msgs:srv/GetInt32.srv",
+    "/home/jeni/astra_s/src/ros2_astra_camera/astra_camera_msgs:srv/GetString.srv",
+    "/home/jeni/astra_s/src/ros2_astra_camera/astra_camera_msgs:srv/SetInt32.srv"
+  ]
+}

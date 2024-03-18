@@ -1,0 +1,60 @@
+[0.133s] Invoking command in '/home/jeni/astra_s/build/magic_enum': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/jeni/astra_s/magic_enum-0.8.2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jeni/astra_s/install/magic_enum
+[0.169s] -- The CXX compiler identification is GNU 9.4.0
+[0.172s] -- Check for working CXX compiler: /usr/bin/c++
+[0.215s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.215s] -- Detecting CXX compiler ABI info
+[0.261s] -- Detecting CXX compiler ABI info - done
+[0.267s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.269s] -- Performing Test HAS_CPP20_FLAG
+[0.280s] -- Performing Test HAS_CPP20_FLAG - Failed
+[0.280s] -- Performing Test HAS_CPP23_FLAG
+[0.292s] -- Performing Test HAS_CPP23_FLAG - Failed
+[0.294s] -- Configuring done
+[0.298s] -- Generating done
+[0.299s] -- Build files have been written to: /home/jeni/astra_s/build/magic_enum
+[0.301s] Invoked command in '/home/jeni/astra_s/build/magic_enum' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/jeni/astra_s/magic_enum-0.8.2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jeni/astra_s/install/magic_enum
+[0.303s] Invoking command in '/home/jeni/astra_s/build/magic_enum': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/jeni/astra_s/build/magic_enum -- -j20 -l20
+[0.323s] [35m[1mScanning dependencies of target test_flags-cpp17[0m
+[0.323s] [35m[1mScanning dependencies of target enum_flag_example[0m
+[0.324s] [35m[1mScanning dependencies of target example[0m
+[0.324s] [35m[1mScanning dependencies of target example_switch[0m
+[0.324s] [35m[1mScanning dependencies of target example_custom_name[0m
+[0.324s] [35m[1mScanning dependencies of target test-cpp17[0m
+[0.325s] [35m[1mScanning dependencies of target test_aliases-cpp17[0m
+[0.330s] [ 14%] [32mBuilding CXX object example/CMakeFiles/enum_flag_example.dir/enum_flag_example.cpp.o[0m
+[0.330s] [ 14%] [32mBuilding CXX object example/CMakeFiles/example.dir/example.cpp.o[0m
+[0.330s] [ 21%] [32mBuilding CXX object example/CMakeFiles/example_custom_name.dir/example_custom_name.cpp.o[0m
+[0.333s] [ 28%] [32mBuilding CXX object example/CMakeFiles/example_switch.dir/example_switch.cpp.o[0m
+[0.334s] [ 35%] [32mBuilding CXX object test/CMakeFiles/test-cpp17.dir/test.cpp.o[0m
+[0.334s] [ 42%] [32mBuilding CXX object test/CMakeFiles/test_flags-cpp17.dir/test_flags.cpp.o[0m
+[0.335s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_aliases-cpp17.dir/test_aliases.cpp.o[0m
+[0.662s] [ 57%] [32m[1mLinking CXX executable enum_flag_example[0m
+[0.707s] [ 64%] [32m[1mLinking CXX executable example_custom_name[0m
+[0.737s] [ 64%] Built target enum_flag_example
+[0.789s] [ 71%] [32m[1mLinking CXX executable example[0m
+[0.832s] [ 71%] Built target example_custom_name
+[0.866s] [ 78%] [32m[1mLinking CXX executable example_switch[0m
+[0.871s] [ 78%] Built target example
+[0.913s] [ 78%] Built target example_switch
+[14.316s] [ 85%] [32m[1mLinking CXX executable test_aliases-cpp17[0m
+[14.323s] /usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/test_aliases-cpp17.dir/test_aliases.cpp.o  -o test_aliases-cpp17 
+[14.394s] [ 85%] Built target test_aliases-cpp17
+[16.654s] [ 92%] [32m[1mLinking CXX executable test_flags-cpp17[0m
+[16.659s] /usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/test_flags-cpp17.dir/test_flags.cpp.o  -o test_flags-cpp17 
+[16.720s] [ 92%] Built target test_flags-cpp17
+[16.970s] [100%] [32m[1mLinking CXX executable test-cpp17[0m
+[16.975s] /usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/test-cpp17.dir/test.cpp.o  -o test-cpp17 
+[17.029s] [100%] Built target test-cpp17
+[17.036s] Invoked command in '/home/jeni/astra_s/build/magic_enum' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/jeni/astra_s/build/magic_enum -- -j20 -l20
+[17.049s] Invoking command in '/home/jeni/astra_s/build/magic_enum': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/jeni/astra_s/build/magic_enum
+[17.053s] -- Install configuration: "Release"
+[17.053s] -- Installing: /home/jeni/astra_s/install/magic_enum/lib/cmake/magic_enum/magic_enumConfigVersion.cmake
+[17.053s] -- Installing: /home/jeni/astra_s/install/magic_enum/lib/cmake/magic_enum/magic_enumConfig.cmake
+[17.053s] -- Installing: /home/jeni/astra_s/install/magic_enum/./include
+[17.053s] -- Installing: /home/jeni/astra_s/install/magic_enum/./include/magic_enum_format.hpp
+[17.053s] -- Installing: /home/jeni/astra_s/install/magic_enum/./include/magic_enum.hpp
+[17.053s] -- Installing: /home/jeni/astra_s/install/magic_enum/./include/magic_enum_fuse.hpp
+[17.053s] -- Installing: /home/jeni/astra_s/install/magic_enum/./include/magic_enum_switch.hpp
+[17.053s] -- Installing: /home/jeni/astra_s/install/magic_enum/share/magic_enum/package.xml
+[17.054s] Invoked command in '/home/jeni/astra_s/build/magic_enum' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/jeni/astra_s/build/magic_enum

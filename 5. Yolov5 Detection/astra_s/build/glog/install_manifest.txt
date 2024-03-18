@@ -1,0 +1,16 @@
+/home/jeni/astra_s/install/glog/lib/libglog.so.0.6.0
+/home/jeni/astra_s/install/glog/lib/libglog.so.1
+/home/jeni/astra_s/install/glog/lib/libglog.so
+/home/jeni/astra_s/install/glog/include/glog/export.h
+/home/jeni/astra_s/install/glog/include/glog/logging.h
+/home/jeni/astra_s/install/glog/include/glog/raw_logging.h
+/home/jeni/astra_s/install/glog/include/glog/stl_logging.h
+/home/jeni/astra_s/install/glog/include/glog/vlog_is_on.h
+/home/jeni/astra_s/install/glog/include/glog/log_severity.h
+/home/jeni/astra_s/install/glog/include/glog/platform.h
+/home/jeni/astra_s/install/glog/lib/pkgconfig/libglog.pc
+/home/jeni/astra_s/install/glog/lib/cmake/glog/glog-modules.cmake
+/home/jeni/astra_s/install/glog/lib/cmake/glog/glog-config.cmake
+/home/jeni/astra_s/install/glog/lib/cmake/glog/glog-config-version.cmake
+/home/jeni/astra_s/install/glog/lib/cmake/glog/glog-targets.cmake
+/home/jeni/astra_s/install/glog/lib/cmake/glog/glog-targets-release.cmake

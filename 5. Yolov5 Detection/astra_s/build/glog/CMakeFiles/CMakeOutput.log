@@ -1,0 +1,1229 @@
+The system is: Linux - 5.15.0-97-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jeni/astra_s/build/glog/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3a0d1/fast && /usr/bin/make -f CMakeFiles/cmTC_3a0d1.dir/build.make CMakeFiles/cmTC_3a0d1.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_3a0d1.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_3a0d1.dir/testCXXCompiler.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_3a0d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a0d1.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_3a0d1.dir/testCXXCompiler.cxx.o  -o cmTC_3a0d1 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8affa/fast && /usr/bin/make -f CMakeFiles/cmTC_8affa.dir/build.make CMakeFiles/cmTC_8affa.dir/build
+make[1]: Entering directory '/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8affa.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_8affa.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8affa.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8affa.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccERiIXp.s
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3d1eba838554fa2348dba760e4770469
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8affa.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_8affa.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccERiIXp.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8affa.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_8affa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8affa.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_8affa.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8affa 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8affa' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqKACel.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8affa /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_8affa.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8affa' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_8affa/fast && /usr/bin/make -f CMakeFiles/cmTC_8affa.dir/build.make CMakeFiles/cmTC_8affa.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_8affa.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_8affa.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8affa.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8affa.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccERiIXp.s]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3d1eba838554fa2348dba760e4770469]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8affa.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_8affa.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccERiIXp.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8affa.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_8affa]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8affa.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_8affa.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8affa ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8affa' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqKACel.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8affa /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_8affa.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccqKACel.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8affa] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_8affa.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining the gflags namespace passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8ba3e/fast && /usr/bin/make -f CMakeFiles/cmTC_8ba3e.dir/build.make CMakeFiles/cmTC_8ba3e.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_8ba3e.dir/DetermineGflagsNamespace.cxx.o
+/usr/bin/c++  -DGFLAGS_IS_A_DLL=0 -DGLOG_GFLAGS_NAMESPACE=gflags  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_8ba3e.dir/DetermineGflagsNamespace.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/DetermineGflagsNamespace.cxx
+Linking CXX executable cmTC_8ba3e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ba3e.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_8ba3e.dir/DetermineGflagsNamespace.cxx.o  -o cmTC_8ba3e  /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2 -lpthread 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4a31d/fast && /usr/bin/make -f CMakeFiles/cmTC_4a31d.dir/build.make CMakeFiles/cmTC_4a31d.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_4a31d.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_4a31d.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_4a31d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a31d.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_4a31d.dir/CheckIncludeFile.cxx.o  -o cmTC_4a31d 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7bef6/fast && /usr/bin/make -f CMakeFiles/cmTC_7bef6.dir/build.make CMakeFiles/cmTC_7bef6.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_7bef6.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_7bef6.dir/CheckFunctionExists.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_7bef6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bef6.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_7bef6.dir/CheckFunctionExists.cxx.o  -o cmTC_7bef6  -lpthread 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file unwind.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ba48d/fast && /usr/bin/make -f CMakeFiles/cmTC_ba48d.dir/build.make CMakeFiles/cmTC_ba48d.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_ba48d.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_ba48d.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_ba48d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba48d.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_ba48d.dir/CheckIncludeFile.cxx.o  -o cmTC_ba48d 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the _Unwind_Backtrace exist passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_99523/fast && /usr/bin/make -f CMakeFiles/cmTC_99523.dir/build.make CMakeFiles/cmTC_99523.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_99523.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_99523.dir/CheckSymbolExists.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_99523
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99523.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_99523.dir/CheckSymbolExists.cxx.o  -o cmTC_99523 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+File /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_Backtrace
+  return ((int*)(&_Unwind_Backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_79dca/fast && /usr/bin/make -f CMakeFiles/cmTC_79dca.dir/build.make CMakeFiles/cmTC_79dca.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_79dca.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_79dca.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_79dca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79dca.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_79dca.dir/CheckIncludeFile.cxx.o  -o cmTC_79dca 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4baa7/fast && /usr/bin/make -f CMakeFiles/cmTC_4baa7.dir/build.make CMakeFiles/cmTC_4baa7.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_4baa7.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_4baa7.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_4baa7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4baa7.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_4baa7.dir/CheckIncludeFile.cxx.o  -o cmTC_4baa7 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file glob.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_12f68/fast && /usr/bin/make -f CMakeFiles/cmTC_12f68.dir/build.make CMakeFiles/cmTC_12f68.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_12f68.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_12f68.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_12f68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12f68.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_12f68.dir/CheckIncludeFile.cxx.o  -o cmTC_12f68 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_88d7b/fast && /usr/bin/make -f CMakeFiles/cmTC_88d7b.dir/build.make CMakeFiles/cmTC_88d7b.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_88d7b.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_88d7b.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_88d7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88d7b.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_88d7b.dir/CheckIncludeFile.cxx.o  -o cmTC_88d7b 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cccbb/fast && /usr/bin/make -f CMakeFiles/cmTC_cccbb.dir/build.make CMakeFiles/cmTC_cccbb.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_cccbb.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_cccbb.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_cccbb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cccbb.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_cccbb.dir/CheckIncludeFile.cxx.o  -o cmTC_cccbb 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file pwd.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_35e60/fast && /usr/bin/make -f CMakeFiles/cmTC_35e60.dir/build.make CMakeFiles/cmTC_35e60.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_35e60.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_35e60.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_35e60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35e60.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_35e60.dir/CheckIncludeFile.cxx.o  -o cmTC_35e60 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fc352/fast && /usr/bin/make -f CMakeFiles/cmTC_fc352.dir/build.make CMakeFiles/cmTC_fc352.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_fc352.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_fc352.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_fc352
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc352.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_fc352.dir/CheckIncludeFile.cxx.o  -o cmTC_fc352 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a1956/fast && /usr/bin/make -f CMakeFiles/cmTC_a1956.dir/build.make CMakeFiles/cmTC_a1956.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_a1956.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_a1956.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_a1956
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1956.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_a1956.dir/CheckIncludeFile.cxx.o  -o cmTC_a1956 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_49db7/fast && /usr/bin/make -f CMakeFiles/cmTC_49db7.dir/build.make CMakeFiles/cmTC_49db7.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_49db7.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_49db7.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_49db7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49db7.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_49db7.dir/CheckIncludeFile.cxx.o  -o cmTC_49db7 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file sys/syscall.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9ba53/fast && /usr/bin/make -f CMakeFiles/cmTC_9ba53.dir/build.make CMakeFiles/cmTC_9ba53.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_9ba53.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_9ba53.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_9ba53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ba53.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_9ba53.dir/CheckIncludeFile.cxx.o  -o cmTC_9ba53 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d8ae8/fast && /usr/bin/make -f CMakeFiles/cmTC_d8ae8.dir/build.make CMakeFiles/cmTC_d8ae8.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_d8ae8.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_d8ae8.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_d8ae8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8ae8.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_d8ae8.dir/CheckIncludeFile.cxx.o  -o cmTC_d8ae8 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_503bd/fast && /usr/bin/make -f CMakeFiles/cmTC_503bd.dir/build.make CMakeFiles/cmTC_503bd.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_503bd.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_503bd.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_503bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_503bd.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_503bd.dir/CheckIncludeFile.cxx.o  -o cmTC_503bd 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file sys/utsname.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9cb40/fast && /usr/bin/make -f CMakeFiles/cmTC_9cb40.dir/build.make CMakeFiles/cmTC_9cb40.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_9cb40.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_9cb40.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_9cb40
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cb40.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_9cb40.dir/CheckIncludeFile.cxx.o  -o cmTC_9cb40 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ff4fc/fast && /usr/bin/make -f CMakeFiles/cmTC_ff4fc.dir/build.make CMakeFiles/cmTC_ff4fc.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_ff4fc.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_ff4fc.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_ff4fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff4fc.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_ff4fc.dir/CheckIncludeFile.cxx.o  -o cmTC_ff4fc 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file syscall.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_57132/fast && /usr/bin/make -f CMakeFiles/cmTC_57132.dir/build.make CMakeFiles/cmTC_57132.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_57132.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_57132.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_57132
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57132.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_57132.dir/CheckIncludeFile.cxx.o  -o cmTC_57132 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_afb04/fast && /usr/bin/make -f CMakeFiles/cmTC_afb04.dir/build.make CMakeFiles/cmTC_afb04.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_afb04.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_afb04.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_afb04
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afb04.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_afb04.dir/CheckIncludeFile.cxx.o  -o cmTC_afb04 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file ucontext.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_82d4d/fast && /usr/bin/make -f CMakeFiles/cmTC_82d4d.dir/build.make CMakeFiles/cmTC_82d4d.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_82d4d.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_82d4d.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_82d4d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82d4d.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_82d4d.dir/CheckIncludeFile.cxx.o  -o cmTC_82d4d 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2239c/fast && /usr/bin/make -f CMakeFiles/cmTC_2239c.dir/build.make CMakeFiles/cmTC_2239c.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_2239c.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_2239c.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_2239c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2239c.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_2239c.dir/CheckIncludeFile.cxx.o  -o cmTC_2239c 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file ext/hash_map exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f7c0c/fast && /usr/bin/make -f CMakeFiles/cmTC_f7c0c.dir/build.make CMakeFiles/cmTC_f7c0c.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_f7c0c.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_f7c0c.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/9/ext/hash_map:60,
+                 from /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/9/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+   32 | #warning \
+      |  ^~~~~~~
+Linking CXX executable cmTC_f7c0c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7c0c.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_f7c0c.dir/CheckIncludeFile.cxx.o  -o cmTC_f7c0c 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file ext/hash_set exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2601f/fast && /usr/bin/make -f CMakeFiles/cmTC_2601f.dir/build.make CMakeFiles/cmTC_2601f.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_2601f.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_2601f.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/9/ext/hash_set:60,
+                 from /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/9/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+   32 | #warning \
+      |  ^~~~~~~
+Linking CXX executable cmTC_2601f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2601f.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_2601f.dir/CheckIncludeFile.cxx.o  -o cmTC_2601f 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file ext/slist exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c1b80/fast && /usr/bin/make -f CMakeFiles/cmTC_c1b80.dir/build.make CMakeFiles/cmTC_c1b80.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_c1b80.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_c1b80.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_c1b80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1b80.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_c1b80.dir/CheckIncludeFile.cxx.o  -o cmTC_c1b80 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file tr1/unordered_map exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_64a0a/fast && /usr/bin/make -f CMakeFiles/cmTC_64a0a.dir/build.make CMakeFiles/cmTC_64a0a.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_64a0a.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_64a0a.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_64a0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64a0a.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_64a0a.dir/CheckIncludeFile.cxx.o  -o cmTC_64a0a 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file tr1/unordered_set exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4d46d/fast && /usr/bin/make -f CMakeFiles/cmTC_4d46d.dir/build.make CMakeFiles/cmTC_4d46d.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_4d46d.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_4d46d.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_4d46d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d46d.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_4d46d.dir/CheckIncludeFile.cxx.o  -o cmTC_4d46d 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file unordered_map exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_644e6/fast && /usr/bin/make -f CMakeFiles/cmTC_644e6.dir/build.make CMakeFiles/cmTC_644e6.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_644e6.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_644e6.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_644e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_644e6.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_644e6.dir/CheckIncludeFile.cxx.o  -o cmTC_644e6 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file unordered_set exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1fe34/fast && /usr/bin/make -f CMakeFiles/cmTC_1fe34.dir/build.make CMakeFiles/cmTC_1fe34.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_1fe34.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_1fe34.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_1fe34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fe34.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_1fe34.dir/CheckIncludeFile.cxx.o  -o cmTC_1fe34 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_00ea1/fast && /usr/bin/make -f CMakeFiles/cmTC_00ea1.dir/build.make CMakeFiles/cmTC_00ea1.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_00ea1.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_00ea1.dir/CheckIncludeFile.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_00ea1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00ea1.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_00ea1.dir/CheckIncludeFile.cxx.o  -o cmTC_00ea1 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of u_int16_t passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_47d0a/fast && /usr/bin/make -f CMakeFiles/cmTC_47d0a.dir/build.make CMakeFiles/cmTC_47d0a.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_47d0a.dir/HAVE_U_INT16_T.cpp.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_47d0a.dir/HAVE_U_INT16_T.cpp.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CheckTypeSize/HAVE_U_INT16_T.cpp
+Linking CXX executable cmTC_47d0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47d0a.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_47d0a.dir/HAVE_U_INT16_T.cpp.o  -o cmTC_47d0a 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7b55d/fast && /usr/bin/make -f CMakeFiles/cmTC_7b55d.dir/build.make CMakeFiles/cmTC_7b55d.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_7b55d.dir/HAVE_UINT16_T.cpp.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_7b55d.dir/HAVE_UINT16_T.cpp.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CheckTypeSize/HAVE_UINT16_T.cpp
+Linking CXX executable cmTC_7b55d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b55d.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_7b55d.dir/HAVE_UINT16_T.cpp.o  -o cmTC_7b55d 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3e99b/fast && /usr/bin/make -f CMakeFiles/cmTC_3e99b.dir/build.make CMakeFiles/cmTC_3e99b.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_3e99b.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=fcntl -fPIE   -o CMakeFiles/cmTC_3e99b.dir/CheckFunctionExists.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_3e99b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e99b.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=fcntl    CMakeFiles/cmTC_3e99b.dir/CheckFunctionExists.cxx.o  -o cmTC_3e99b 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function pread exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_115e9/fast && /usr/bin/make -f CMakeFiles/cmTC_115e9.dir/build.make CMakeFiles/cmTC_115e9.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_115e9.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pread -fPIE   -o CMakeFiles/cmTC_115e9.dir/CheckFunctionExists.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_115e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_115e9.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pread    CMakeFiles/cmTC_115e9.dir/CheckFunctionExists.cxx.o  -o cmTC_115e9 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function pwrite exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b1ed1/fast && /usr/bin/make -f CMakeFiles/cmTC_b1ed1.dir/build.make CMakeFiles/cmTC_b1ed1.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_b1ed1.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pwrite -fPIE   -o CMakeFiles/cmTC_b1ed1.dir/CheckFunctionExists.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_b1ed1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1ed1.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pwrite    CMakeFiles/cmTC_b1ed1.dir/CheckFunctionExists.cxx.o  -o cmTC_b1ed1 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_64a13/fast && /usr/bin/make -f CMakeFiles/cmTC_64a13.dir/build.make CMakeFiles/cmTC_64a13.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_64a13.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=sigaction -fPIE   -o CMakeFiles/cmTC_64a13.dir/CheckFunctionExists.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_64a13
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64a13.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=sigaction    CMakeFiles/cmTC_64a13.dir/CheckFunctionExists.cxx.o  -o cmTC_64a13 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function sigaltstack exists passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_40f12/fast && /usr/bin/make -f CMakeFiles/cmTC_40f12.dir/build.make CMakeFiles/cmTC_40f12.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_40f12.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=sigaltstack -fPIE   -o CMakeFiles/cmTC_40f12.dir/CheckFunctionExists.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_40f12
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40f12.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=sigaltstack    CMakeFiles/cmTC_40f12.dir/CheckFunctionExists.cxx.o  -o cmTC_40f12 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+
+Performing C++ SOURCE FILE Test HAVE_NO_DEPRECATED succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_17302/fast && /usr/bin/make -f CMakeFiles/cmTC_17302.dir/build.make CMakeFiles/cmTC_17302.dir/build
+make[1]: Entering directory '/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_17302.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_NO_DEPRECATED -fPIE   -Wdeprecated -o CMakeFiles/cmTC_17302.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_17302
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17302.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_NO_DEPRECATED    CMakeFiles/cmTC_17302.dir/src.cxx.o  -o cmTC_17302 
+make[1]: Leaving directory '/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e8c74/fast && /usr/bin/make -f CMakeFiles/cmTC_e8c74.dir/build.make CMakeFiles/cmTC_e8c74.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_e8c74.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_e8c74.dir/CheckSymbolExists.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_e8c74
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8c74.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_e8c74.dir/CheckSymbolExists.cxx.o  -o cmTC_e8c74 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+File /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cstdio>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE___ATTRIBUTE__ succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ec98e/fast && /usr/bin/make -f CMakeFiles/cmTC_ec98e.dir/build.make CMakeFiles/cmTC_ec98e.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_ec98e.dir/src.cxx.o
+/usr/bin/c++    -DHAVE___ATTRIBUTE__ -fPIE   -o CMakeFiles/cmTC_ec98e.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ec98e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec98e.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE___ATTRIBUTE__    CMakeFiles/cmTC_ec98e.dir/src.cxx.o  -o cmTC_ec98e 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+#include <cstdlib>
+static void foo(void) __attribute__ ((unused));
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_DEFAULT succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_371bf/fast && /usr/bin/make -f CMakeFiles/cmTC_371bf.dir/build.make CMakeFiles/cmTC_371bf.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_371bf.dir/src.cxx.o
+/usr/bin/c++    -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT -fPIE   -o CMakeFiles/cmTC_371bf.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx:3:61: warning: ‘visibility’ attribute ignored [-Wattributes]
+    3 | static void foo(void) __attribute__ ((visibility("default")));
+      |                                                             ^
+Linking CXX executable cmTC_371bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_371bf.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT    CMakeFiles/cmTC_371bf.dir/src.cxx.o  -o cmTC_371bf 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+#include <cstdlib>
+static void foo(void) __attribute__ ((visibility("default")));
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8f44e/fast && /usr/bin/make -f CMakeFiles/cmTC_8f44e.dir/build.make CMakeFiles/cmTC_8f44e.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_8f44e.dir/src.cxx.o
+/usr/bin/c++    -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN -fPIE   -o CMakeFiles/cmTC_8f44e.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx:3:60: warning: ‘visibility’ attribute ignored [-Wattributes]
+    3 | static void foo(void) __attribute__ ((visibility("hidden")));
+      |                                                            ^
+Linking CXX executable cmTC_8f44e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f44e.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN    CMakeFiles/cmTC_8f44e.dir/src.cxx.o  -o cmTC_8f44e 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+#include <cstdlib>
+static void foo(void) __attribute__ ((visibility("hidden")));
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE___BUILTIN_EXPECT succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_54b22/fast && /usr/bin/make -f CMakeFiles/cmTC_54b22.dir/build.make CMakeFiles/cmTC_54b22.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_54b22.dir/src.cxx.o
+/usr/bin/c++    -DHAVE___BUILTIN_EXPECT -fPIE   -o CMakeFiles/cmTC_54b22.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_54b22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54b22.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE___BUILTIN_EXPECT    CMakeFiles/cmTC_54b22.dir/src.cxx.o  -o cmTC_54b22 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+int main(void) { if (__builtin_expect(0, 0)) return 1; return 0; }
+
+Performing C++ SOURCE FILE Test HAVE___SYNC_VAL_COMPARE_AND_SWAP succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ce778/fast && /usr/bin/make -f CMakeFiles/cmTC_ce778.dir/build.make CMakeFiles/cmTC_ce778.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_ce778.dir/src.cxx.o
+/usr/bin/c++    -DHAVE___SYNC_VAL_COMPARE_AND_SWAP -fPIE   -o CMakeFiles/cmTC_ce778.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ce778
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce778.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE___SYNC_VAL_COMPARE_AND_SWAP    CMakeFiles/cmTC_ce778.dir/src.cxx.o  -o cmTC_ce778 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+int main(void)
+{
+  int a; if (__sync_val_compare_and_swap(&a, 0, 1)) return 1; return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_RWLOCK succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2005f/fast && /usr/bin/make -f CMakeFiles/cmTC_2005f.dir/build.make CMakeFiles/cmTC_2005f.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_2005f.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_RWLOCK -fPIE   -o CMakeFiles/cmTC_2005f.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2005f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2005f.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_RWLOCK    CMakeFiles/cmTC_2005f.dir/src.cxx.o  -o cmTC_2005f  -lpthread 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+#define _XOPEN_SOURCE 500
+#include <pthread.h>
+int main(void)
+{
+  pthread_rwlock_t l;
+  pthread_rwlock_init(&l, NULL);
+  pthread_rwlock_rdlock(&l);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test STL_STD_NAMESPACE succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a9dbe/fast && /usr/bin/make -f CMakeFiles/cmTC_a9dbe.dir/build.make CMakeFiles/cmTC_a9dbe.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_a9dbe.dir/src.cxx.o
+/usr/bin/c++    -DSTL_STD_NAMESPACE -fPIE   -o CMakeFiles/cmTC_a9dbe.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a9dbe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9dbe.dir/link.txt --verbose=1
+/usr/bin/c++   -DSTL_STD_NAMESPACE    CMakeFiles/cmTC_a9dbe.dir/src.cxx.o  -o cmTC_a9dbe 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+#include <vector>
+std::vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_USING_OPERATOR succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_53d9a/fast && /usr/bin/make -f CMakeFiles/cmTC_53d9a.dir/build.make CMakeFiles/cmTC_53d9a.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_53d9a.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_USING_OPERATOR -fPIE   -o CMakeFiles/cmTC_53d9a.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_53d9a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53d9a.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_USING_OPERATOR    CMakeFiles/cmTC_53d9a.dir/src.cxx.o  -o cmTC_53d9a 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+#include <iostream>
+std::ostream& operator<<(std::ostream&, struct s);
+using ::operator<<;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_NAMESPACES succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1a579/fast && /usr/bin/make -f CMakeFiles/cmTC_1a579.dir/build.make CMakeFiles/cmTC_1a579.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_1a579.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_NAMESPACES -fPIE   -o CMakeFiles/cmTC_1a579.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1a579
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a579.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_NAMESPACES    CMakeFiles/cmTC_1a579.dir/src.cxx.o  -o cmTC_1a579 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+namespace Outer { namespace Inner { int i = 0; }}
+using namespace Outer::Inner;;
+int main() { return i; }
+
+Performing C++ SOURCE FILE Test HAVE_GCC_TLS succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0c278/fast && /usr/bin/make -f CMakeFiles/cmTC_0c278.dir/build.make CMakeFiles/cmTC_0c278.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_0c278.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_GCC_TLS -fPIE   -o CMakeFiles/cmTC_0c278.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0c278
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c278.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_GCC_TLS    CMakeFiles/cmTC_0c278.dir/src.cxx.o  -o cmTC_0c278 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+__thread int tls;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_TLS succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ba10c/fast && /usr/bin/make -f CMakeFiles/cmTC_ba10c.dir/build.make CMakeFiles/cmTC_ba10c.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_ba10c.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX11_TLS -fPIE   -o CMakeFiles/cmTC_ba10c.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ba10c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba10c.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX11_TLS    CMakeFiles/cmTC_ba10c.dir/src.cxx.o  -o cmTC_ba10c 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+thread_local int tls;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_ALIGNED_STORAGE succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f0ca2/fast && /usr/bin/make -f CMakeFiles/cmTC_f0ca2.dir/build.make CMakeFiles/cmTC_f0ca2.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_f0ca2.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_ALIGNED_STORAGE -fPIE   -o CMakeFiles/cmTC_f0ca2.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f0ca2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0ca2.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_ALIGNED_STORAGE    CMakeFiles/cmTC_f0ca2.dir/src.cxx.o  -o cmTC_f0ca2 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+#include <type_traits>
+std::aligned_storage<sizeof(char), alignof(char)>::type data;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_ATOMIC succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0903e/fast && /usr/bin/make -f CMakeFiles/cmTC_0903e.dir/build.make CMakeFiles/cmTC_0903e.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_0903e.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX11_ATOMIC -fPIE   -o CMakeFiles/cmTC_0903e.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0903e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0903e.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX11_ATOMIC    CMakeFiles/cmTC_0903e.dir/src.cxx.o  -o cmTC_0903e 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+#include <atomic>
+std::atomic<int> i;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_CONSTEXPR succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_15e1e/fast && /usr/bin/make -f CMakeFiles/cmTC_15e1e.dir/build.make CMakeFiles/cmTC_15e1e.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_15e1e.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX11_CONSTEXPR -fPIE   -o CMakeFiles/cmTC_15e1e.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_15e1e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15e1e.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX11_CONSTEXPR    CMakeFiles/cmTC_15e1e.dir/src.cxx.o  -o cmTC_15e1e 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+constexpr int x = 0;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_CHRONO succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_35a79/fast && /usr/bin/make -f CMakeFiles/cmTC_35a79.dir/build.make CMakeFiles/cmTC_35a79.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_35a79.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX11_CHRONO -fPIE   -o CMakeFiles/cmTC_35a79.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_35a79
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35a79.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX11_CHRONO    CMakeFiles/cmTC_35a79.dir/src.cxx.o  -o cmTC_35a79 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+#include <chrono>
+std::chrono::seconds s;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_NULLPTR_T succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fcda9/fast && /usr/bin/make -f CMakeFiles/cmTC_fcda9.dir/build.make CMakeFiles/cmTC_fcda9.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_fcda9.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX11_NULLPTR_T -fPIE   -o CMakeFiles/cmTC_fcda9.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fcda9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcda9.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX11_NULLPTR_T    CMakeFiles/cmTC_fcda9.dir/src.cxx.o  -o cmTC_fcda9 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+#include <cstddef>
+void foo(std::nullptr_t) {}
+int main(void) { foo(nullptr); }
+
+Performing C++ SOURCE FILE Test HAVE_LOCALTIME_R succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_09226/fast && /usr/bin/make -f CMakeFiles/cmTC_09226.dir/build.make CMakeFiles/cmTC_09226.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_09226.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_LOCALTIME_R -fPIE   -o CMakeFiles/cmTC_09226.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_09226
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09226.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_LOCALTIME_R    CMakeFiles/cmTC_09226.dir/src.cxx.o  -o cmTC_09226 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+#include <cstdlib>
+#include <ctime>
+int main()
+{
+    time_t timep;
+    struct tm result;
+    localtime_r(&timep, &result);
+    return EXIT_SUCCESS;
+}
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f2f9d/fast && /usr/bin/make -f CMakeFiles/cmTC_f2f9d.dir/build.make CMakeFiles/cmTC_f2f9d.dir/build
+make[1]: Entering directory '/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f2f9d.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_VISIBILITY -fPIE   -fvisibility=hidden -o CMakeFiles/cmTC_f2f9d.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f2f9d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2f9d.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_HAS_HIDDEN_VISIBILITY    CMakeFiles/cmTC_f2f9d.dir/src.cxx.o  -o cmTC_f2f9d 
+make[1]: Leaving directory '/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e8786/fast && /usr/bin/make -f CMakeFiles/cmTC_e8786.dir/build.make CMakeFiles/cmTC_e8786.dir/build
+make[1]: Entering directory '/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e8786.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY -fPIE   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_e8786.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e8786
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8786.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY    CMakeFiles/cmTC_e8786.dir/src.cxx.o  -o cmTC_e8786 
+make[1]: Leaving directory '/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_530c4/fast && /usr/bin/make -f CMakeFiles/cmTC_530c4.dir/build.make CMakeFiles/cmTC_530c4.dir/build
+make[1]: 进入目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_530c4.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_HAS_DEPRECATED_ATTR -fPIE   -o CMakeFiles/cmTC_530c4.dir/src.cxx.o -c /home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx
+/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+    2 |     int main() { return somefunc();}
+      |                                  ^
+/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx:1:37: note: declared here
+    1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+      |                                     ^~~~~~~~
+/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+    2 |     int main() { return somefunc();}
+      |                                  ^
+/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp/src.cxx:1:37: note: declared here
+    1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+      |                                     ^~~~~~~~
+Linking CXX executable cmTC_530c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_530c4.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_HAS_DEPRECATED_ATTR    CMakeFiles/cmTC_530c4.dir/src.cxx.o  -o cmTC_530c4 
+make[1]: 离开目录“/home/jeni/astra_s/build/glog/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}

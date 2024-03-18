@@ -1,0 +1,9 @@
+/home/jeni/astra_s/build/libuvc/CMakeFiles/install/strip.dir
+/home/jeni/astra_s/build/libuvc/CMakeFiles/install/local.dir
+/home/jeni/astra_s/build/libuvc/CMakeFiles/install.dir
+/home/jeni/astra_s/build/libuvc/CMakeFiles/list_install_components.dir
+/home/jeni/astra_s/build/libuvc/CMakeFiles/rebuild_cache.dir
+/home/jeni/astra_s/build/libuvc/CMakeFiles/example.dir
+/home/jeni/astra_s/build/libuvc/CMakeFiles/uvc_static.dir
+/home/jeni/astra_s/build/libuvc/CMakeFiles/edit_cache.dir
+/home/jeni/astra_s/build/libuvc/CMakeFiles/uvc.dir

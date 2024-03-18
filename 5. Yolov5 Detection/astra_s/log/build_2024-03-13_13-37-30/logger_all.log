@@ -1,0 +1,404 @@
+[2.153s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--event-handlers', 'console_direct+', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[2.154s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=['console_direct+'], executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f81b8926d60>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=20, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f81b8926d60>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f81b8628730>)
+[2.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.245s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jeni/astra_s'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(glog-0.6.0) by extensions ['ignore', 'ignore_ament_install']
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(glog-0.6.0) by extension 'ignore'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(glog-0.6.0) by extension 'ignore_ament_install'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(glog-0.6.0) by extensions ['colcon_pkg']
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(glog-0.6.0) by extension 'colcon_pkg'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(glog-0.6.0) by extensions ['colcon_meta']
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(glog-0.6.0) by extension 'colcon_meta'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(glog-0.6.0) by extensions ['ros']
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(glog-0.6.0) by extension 'ros'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(glog-0.6.0) by extensions ['cmake', 'python']
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(glog-0.6.0) by extension 'cmake'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(glog-0.6.0) by extension 'python'
+[2.259s] DEBUG:colcon.colcon_core.package_identification:Package 'glog-0.6.0' with type 'cmake' and name 'glog'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extensions ['ignore', 'ignore_ament_install']
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extension 'ignore'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extension 'ignore_ament_install'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extensions ['colcon_pkg']
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extension 'colcon_pkg'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extensions ['colcon_meta']
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extension 'colcon_meta'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extensions ['ros']
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extension 'ros'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extensions ['cmake', 'python']
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extension 'cmake'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extension 'python'
+[2.261s] DEBUG:colcon.colcon_core.package_identification:Package 'libuvc' with type 'cmake' and name 'libuvc'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(magic_enum-0.8.2) by extensions ['ignore', 'ignore_ament_install']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(magic_enum-0.8.2) by extension 'ignore'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(magic_enum-0.8.2) by extension 'ignore_ament_install'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(magic_enum-0.8.2) by extensions ['colcon_pkg']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(magic_enum-0.8.2) by extension 'colcon_pkg'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(magic_enum-0.8.2) by extensions ['colcon_meta']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(magic_enum-0.8.2) by extension 'colcon_meta'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(magic_enum-0.8.2) by extensions ['ros']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(magic_enum-0.8.2) by extension 'ros'
+[2.263s] DEBUG:colcon.colcon_core.package_identification:Package 'magic_enum-0.8.2' with type 'ros.cmake' and name 'magic_enum'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ignore'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ignore_ament_install'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['colcon_pkg']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'colcon_pkg'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['colcon_meta']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'colcon_meta'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['ros']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ros'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['cmake', 'python']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'cmake'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'python'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['python_setup_py']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'python_setup_py'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ignore'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ignore_ament_install'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['colcon_pkg']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'colcon_pkg'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['colcon_meta']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'colcon_meta'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['ros']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ros'
+[2.264s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_astra_camera/astra_camera' with type 'ros.ament_cmake' and name 'astra_camera'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ignore'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ignore_ament_install'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['colcon_pkg']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'colcon_pkg'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['colcon_meta']
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'colcon_meta'
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['ros']
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ros'
+[2.265s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_astra_camera/astra_camera_msgs' with type 'ros.ament_cmake' and name 'astra_camera_msgs'
+[2.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.546s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 266 installed packages in /opt/ros/foxy
+[2.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.659s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[2.659s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[2.659s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.659s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.659s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.659s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.659s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.659s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.659s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.659s] DEBUG:colcon.colcon_core.verb:Building package 'astra_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jeni/astra_s/build/astra_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jeni/astra_s/install/astra_camera_msgs', 'merge_install': False, 'path': '/home/jeni/astra_s/src/ros2_astra_camera/astra_camera_msgs', 'symlink_install': False, 'test_result_base': None}
+[2.698s] Level 5:colcon.colcon_core.verb:set package 'glog' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[2.699s] Level 5:colcon.colcon_core.verb:set package 'glog' build argument 'cmake_target' from command line to 'None'
+[2.699s] Level 5:colcon.colcon_core.verb:set package 'glog' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.699s] Level 5:colcon.colcon_core.verb:set package 'glog' build argument 'cmake_clean_cache' from command line to 'False'
+[2.699s] Level 5:colcon.colcon_core.verb:set package 'glog' build argument 'cmake_clean_first' from command line to 'False'
+[2.699s] Level 5:colcon.colcon_core.verb:set package 'glog' build argument 'cmake_force_configure' from command line to 'False'
+[2.699s] Level 5:colcon.colcon_core.verb:set package 'glog' build argument 'ament_cmake_args' from command line to 'None'
+[2.699s] Level 5:colcon.colcon_core.verb:set package 'glog' build argument 'catkin_cmake_args' from command line to 'None'
+[2.699s] Level 5:colcon.colcon_core.verb:set package 'glog' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.699s] DEBUG:colcon.colcon_core.verb:Building package 'glog' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jeni/astra_s/build/glog', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jeni/astra_s/install/glog', 'merge_install': False, 'path': '/home/jeni/astra_s/glog-0.6.0', 'symlink_install': False, 'test_result_base': None}
+[2.737s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[2.737s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'cmake_target' from command line to 'None'
+[2.737s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.737s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'cmake_clean_cache' from command line to 'False'
+[2.737s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'cmake_clean_first' from command line to 'False'
+[2.737s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'cmake_force_configure' from command line to 'False'
+[2.737s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'ament_cmake_args' from command line to 'None'
+[2.737s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'catkin_cmake_args' from command line to 'None'
+[2.737s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.738s] DEBUG:colcon.colcon_core.verb:Building package 'libuvc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jeni/astra_s/build/libuvc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jeni/astra_s/install/libuvc', 'merge_install': False, 'path': '/home/jeni/astra_s/libuvc', 'symlink_install': False, 'test_result_base': None}
+[2.776s] Level 5:colcon.colcon_core.verb:set package 'magic_enum' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[2.776s] Level 5:colcon.colcon_core.verb:set package 'magic_enum' build argument 'cmake_target' from command line to 'None'
+[2.776s] Level 5:colcon.colcon_core.verb:set package 'magic_enum' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.776s] Level 5:colcon.colcon_core.verb:set package 'magic_enum' build argument 'cmake_clean_cache' from command line to 'False'
+[2.776s] Level 5:colcon.colcon_core.verb:set package 'magic_enum' build argument 'cmake_clean_first' from command line to 'False'
+[2.776s] Level 5:colcon.colcon_core.verb:set package 'magic_enum' build argument 'cmake_force_configure' from command line to 'False'
+[2.776s] Level 5:colcon.colcon_core.verb:set package 'magic_enum' build argument 'ament_cmake_args' from command line to 'None'
+[2.776s] Level 5:colcon.colcon_core.verb:set package 'magic_enum' build argument 'catkin_cmake_args' from command line to 'None'
+[2.776s] Level 5:colcon.colcon_core.verb:set package 'magic_enum' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.776s] DEBUG:colcon.colcon_core.verb:Building package 'magic_enum' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jeni/astra_s/build/magic_enum', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jeni/astra_s/install/magic_enum', 'merge_install': False, 'path': '/home/jeni/astra_s/magic_enum-0.8.2', 'symlink_install': False, 'test_result_base': None}
+[2.815s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[2.815s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_target' from command line to 'None'
+[2.815s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.815s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[2.815s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_clean_first' from command line to 'False'
+[2.815s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_force_configure' from command line to 'False'
+[2.815s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'ament_cmake_args' from command line to 'None'
+[2.815s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[2.815s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.815s] DEBUG:colcon.colcon_core.verb:Building package 'astra_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jeni/astra_s/build/astra_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jeni/astra_s/install/astra_camera', 'merge_install': False, 'path': '/home/jeni/astra_s/src/ros2_astra_camera/astra_camera', 'symlink_install': False, 'test_result_base': None}
+[2.853s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.892s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.893s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jeni/astra_s/src/ros2_astra_camera/astra_camera_msgs' with build type 'ament_cmake'
+[2.893s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jeni/astra_s/src/ros2_astra_camera/astra_camera_msgs'
+[2.933s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.933s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.933s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.015s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jeni/astra_s/glog-0.6.0'
+[3.055s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.055s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.137s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jeni/astra_s/libuvc'
+[3.178s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.178s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.259s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/jeni/astra_s/magic_enum-0.8.2' with build type 'cmake'
+[3.259s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jeni/astra_s/magic_enum-0.8.2'
+[3.299s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.299s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeni/astra_s/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/jeni/astra_s/build/astra_camera_msgs -- -j20 -l20
+[3.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeni/astra_s/build/glog': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/jeni/astra_s/build/glog -- -j20 -l20
+[3.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeni/astra_s/build/libuvc': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/jeni/astra_s/build/libuvc -- -j20 -l20
+[3.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeni/astra_s/build/magic_enum': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/jeni/astra_s/build/magic_enum -- -j20 -l20
+[3.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeni/astra_s/build/magic_enum' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/jeni/astra_s/build/magic_enum -- -j20 -l20
+[3.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeni/astra_s/build/libuvc' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/jeni/astra_s/build/libuvc -- -j20 -l20
+[3.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeni/astra_s/build/magic_enum': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/jeni/astra_s/build/magic_enum
+[3.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeni/astra_s/build/magic_enum' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/jeni/astra_s/build/magic_enum
+[3.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeni/astra_s/build/libuvc': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/jeni/astra_s/build/libuvc
+[3.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeni/astra_s/build/glog' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/jeni/astra_s/build/glog -- -j20 -l20
+[3.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libuvc)
+[3.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeni/astra_s/build/libuvc' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/jeni/astra_s/build/libuvc
+[3.515s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/libuvc' for CMake module files
+[3.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('libuvc', 'cmake_module_path')
+[3.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/libuvc/share/libuvc/hook/cmake_module_path.ps1'
+[3.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeni/astra_s/install/libuvc/share/libuvc/hook/cmake_module_path.dsv'
+[3.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/libuvc/share/libuvc/hook/cmake_module_path.sh'
+[3.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('libuvc', 'cmake_module_path1')
+[3.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/libuvc/share/libuvc/hook/cmake_module_path1.ps1'
+[3.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeni/astra_s/install/libuvc/share/libuvc/hook/cmake_module_path1.dsv'
+[3.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/libuvc/share/libuvc/hook/cmake_module_path1.sh'
+[3.605s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/libuvc' for CMake config files
+[3.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('libuvc', 'cmake_prefix_path')
+[3.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/libuvc/share/libuvc/hook/cmake_prefix_path.ps1'
+[3.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeni/astra_s/install/libuvc/share/libuvc/hook/cmake_prefix_path.dsv'
+[3.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/libuvc/share/libuvc/hook/cmake_prefix_path.sh'
+[3.647s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/libuvc/lib'
+[3.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('libuvc', 'ld_library_path_lib')
+[3.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/libuvc/share/libuvc/hook/ld_library_path_lib.ps1'
+[3.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeni/astra_s/install/libuvc/share/libuvc/hook/ld_library_path_lib.dsv'
+[3.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/libuvc/share/libuvc/hook/ld_library_path_lib.sh'
+[3.688s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/libuvc/bin'
+[3.688s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/libuvc/lib/pkgconfig/libuvc.pc'
+[3.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('libuvc', 'pkg_config')
+[3.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/libuvc/share/libuvc/hook/pkg_config.ps1'
+[3.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeni/astra_s/install/libuvc/share/libuvc/hook/pkg_config.dsv'
+[3.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/libuvc/share/libuvc/hook/pkg_config.sh'
+[3.731s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/libuvc/lib/python3.8/site-packages'
+[3.731s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/libuvc/bin'
+[3.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/libuvc/share/libuvc/package.ps1'
+[3.773s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeni/astra_s/install/libuvc/share/libuvc/package.dsv'
+[3.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/libuvc/share/libuvc/package.sh'
+[3.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/libuvc/share/libuvc/package.bash'
+[3.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/libuvc/share/libuvc/package.zsh'
+[3.774s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeni/astra_s/install/libuvc/share/colcon-core/packages/libuvc)
+[3.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('magic_enum', 'pkg_config_path')
+[3.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/magic_enum/share/magic_enum/hook/pkg_config_path.ps1'
+[3.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeni/astra_s/install/magic_enum/share/magic_enum/hook/pkg_config_path.dsv'
+[3.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/magic_enum/share/magic_enum/hook/pkg_config_path.sh'
+[3.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('magic_enum', 'pkg_config_path_multiarch')
+[3.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/magic_enum/share/magic_enum/hook/pkg_config_path_multiarch.ps1'
+[3.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeni/astra_s/install/magic_enum/share/magic_enum/hook/pkg_config_path_multiarch.dsv'
+[3.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/magic_enum/share/magic_enum/hook/pkg_config_path_multiarch.sh'
+[3.862s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(magic_enum)
+[3.903s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/magic_enum' for CMake module files
+[3.903s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/magic_enum' for CMake config files
+[3.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('magic_enum', 'cmake_prefix_path')
+[3.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/magic_enum/share/magic_enum/hook/cmake_prefix_path.ps1'
+[3.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeni/astra_s/install/magic_enum/share/magic_enum/hook/cmake_prefix_path.dsv'
+[3.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/magic_enum/share/magic_enum/hook/cmake_prefix_path.sh'
+[3.943s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/magic_enum/lib'
+[3.944s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/magic_enum/bin'
+[3.944s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/magic_enum/lib/pkgconfig/magic_enum.pc'
+[3.944s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/magic_enum/lib/python3.8/site-packages'
+[3.944s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/magic_enum/bin'
+[3.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/magic_enum/share/magic_enum/package.ps1'
+[3.984s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeni/astra_s/install/magic_enum/share/magic_enum/package.dsv'
+[3.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/magic_enum/share/magic_enum/package.sh'
+[3.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/magic_enum/share/magic_enum/package.bash'
+[3.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/magic_enum/share/magic_enum/package.zsh'
+[3.984s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeni/astra_s/install/magic_enum/share/colcon-core/packages/magic_enum)
+[3.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeni/astra_s/build/glog': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/jeni/astra_s/build/glog
+[3.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeni/astra_s/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/jeni/astra_s/build/astra_camera_msgs -- -j20 -l20
+[3.992s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(glog)
+[3.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeni/astra_s/build/glog' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/jeni/astra_s/build/glog
+[4.060s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/glog' for CMake module files
+[4.060s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/glog' for CMake config files
+[4.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('glog', 'cmake_prefix_path')
+[4.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/glog/share/glog/hook/cmake_prefix_path.ps1'
+[4.103s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeni/astra_s/install/glog/share/glog/hook/cmake_prefix_path.dsv'
+[4.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/glog/share/glog/hook/cmake_prefix_path.sh'
+[4.103s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/glog/lib'
+[4.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('glog', 'ld_library_path_lib')
+[4.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/glog/share/glog/hook/ld_library_path_lib.ps1'
+[4.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeni/astra_s/install/glog/share/glog/hook/ld_library_path_lib.dsv'
+[4.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/glog/share/glog/hook/ld_library_path_lib.sh'
+[4.167s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/glog/bin'
+[4.167s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/glog/lib/pkgconfig/glog.pc'
+[4.167s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/glog/lib/python3.8/site-packages'
+[4.167s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/glog/bin'
+[4.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/glog/share/glog/package.ps1'
+[4.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeni/astra_s/install/glog/share/glog/package.dsv'
+[4.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/glog/share/glog/package.sh'
+[4.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/glog/share/glog/package.bash'
+[4.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/glog/share/glog/package.zsh'
+[4.208s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeni/astra_s/install/glog/share/colcon-core/packages/glog)
+[4.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeni/astra_s/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/jeni/astra_s/build/astra_camera_msgs
+[4.244s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera_msgs)
+[4.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeni/astra_s/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/jeni/astra_s/build/astra_camera_msgs
+[4.298s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera_msgs' for CMake module files
+[4.298s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera_msgs' for CMake config files
+[4.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'cmake_prefix_path')
+[4.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.ps1'
+[4.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.dsv'
+[4.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.sh'
+[4.340s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera_msgs/lib'
+[4.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'ld_library_path_lib')
+[4.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.ps1'
+[4.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.dsv'
+[4.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.sh'
+[4.380s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera_msgs/bin'
+[4.380s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera_msgs/lib/pkgconfig/astra_camera_msgs.pc'
+[4.380s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera_msgs/lib/python3.8/site-packages'
+[4.380s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera_msgs/bin'
+[4.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/package.ps1'
+[4.420s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv'
+[4.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/package.sh'
+[4.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/package.bash'
+[4.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/package.zsh'
+[4.421s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeni/astra_s/install/astra_camera_msgs/share/colcon-core/packages/astra_camera_msgs)
+[4.602s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera_msgs)
+[4.679s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera_msgs' for CMake module files
+[4.679s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera_msgs' for CMake config files
+[4.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'cmake_prefix_path')
+[4.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.ps1'
+[4.719s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.dsv'
+[4.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.sh'
+[4.720s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera_msgs/lib'
+[4.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'ld_library_path_lib')
+[4.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.ps1'
+[4.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.dsv'
+[4.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.sh'
+[4.761s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera_msgs/bin'
+[4.761s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera_msgs/lib/pkgconfig/astra_camera_msgs.pc'
+[4.761s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera_msgs/lib/python3.8/site-packages'
+[4.761s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera_msgs/bin'
+[4.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/package.ps1'
+[4.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv'
+[4.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/package.sh'
+[4.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/package.bash'
+[4.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/astra_camera_msgs/share/astra_camera_msgs/package.zsh'
+[4.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeni/astra_s/install/astra_camera_msgs/share/colcon-core/packages/astra_camera_msgs)
+[4.803s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jeni/astra_s/src/ros2_astra_camera/astra_camera' with build type 'ament_cmake'
+[4.803s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jeni/astra_s/src/ros2_astra_camera/astra_camera'
+[4.844s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.844s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeni/astra_s/build/astra_camera': AMENT_PREFIX_PATH=/home/jeni/astra_s/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeni/astra_s/install/astra_camera_msgs:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/jeni/astra_s/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jeni/astra_s/install/astra_camera_msgs/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jeni/astra_s/build/astra_camera -- -j20 -l20
+[5.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeni/astra_s/build/astra_camera' returned '0': AMENT_PREFIX_PATH=/home/jeni/astra_s/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeni/astra_s/install/astra_camera_msgs:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/jeni/astra_s/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jeni/astra_s/install/astra_camera_msgs/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jeni/astra_s/build/astra_camera -- -j20 -l20
+[5.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeni/astra_s/build/astra_camera': AMENT_PREFIX_PATH=/home/jeni/astra_s/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeni/astra_s/install/astra_camera_msgs:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/jeni/astra_s/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jeni/astra_s/install/astra_camera_msgs/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jeni/astra_s/build/astra_camera
+[5.170s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera)
+[5.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeni/astra_s/build/astra_camera' returned '0': AMENT_PREFIX_PATH=/home/jeni/astra_s/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeni/astra_s/install/astra_camera_msgs:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/jeni/astra_s/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jeni/astra_s/install/astra_camera_msgs/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jeni/astra_s/build/astra_camera
+[5.261s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera' for CMake module files
+[5.262s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera' for CMake config files
+[5.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera', 'cmake_prefix_path')
+[5.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.ps1'
+[5.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeni/astra_s/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.dsv'
+[5.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.sh'
+[5.304s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera/lib'
+[5.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera', 'ld_library_path_lib')
+[5.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.ps1'
+[5.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeni/astra_s/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.dsv'
+[5.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.sh'
+[5.345s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera/bin'
+[5.345s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera/lib/pkgconfig/astra_camera.pc'
+[5.345s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera/lib/python3.8/site-packages'
+[5.345s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera/bin'
+[5.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/astra_camera/share/astra_camera/package.ps1'
+[5.386s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeni/astra_s/install/astra_camera/share/astra_camera/package.dsv'
+[5.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/astra_camera/share/astra_camera/package.sh'
+[5.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/astra_camera/share/astra_camera/package.bash'
+[5.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/astra_camera/share/astra_camera/package.zsh'
+[5.387s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeni/astra_s/install/astra_camera/share/colcon-core/packages/astra_camera)
+[5.485s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera)
+[5.525s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera' for CMake module files
+[5.526s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera' for CMake config files
+[5.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera', 'cmake_prefix_path')
+[5.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.ps1'
+[5.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeni/astra_s/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.dsv'
+[5.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.sh'
+[5.567s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera/lib'
+[5.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera', 'ld_library_path_lib')
+[5.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.ps1'
+[5.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeni/astra_s/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.dsv'
+[5.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeni/astra_s/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.sh'
+[5.608s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera/bin'
+[5.608s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera/lib/pkgconfig/astra_camera.pc'
+[5.608s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera/lib/python3.8/site-packages'
+[5.608s] Level 1:colcon.colcon_core.environment:checking '/home/jeni/astra_s/install/astra_camera/bin'
+[5.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/astra_camera/share/astra_camera/package.ps1'
+[5.648s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeni/astra_s/install/astra_camera/share/astra_camera/package.dsv'
+[5.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/astra_camera/share/astra_camera/package.sh'
+[5.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/astra_camera/share/astra_camera/package.bash'
+[5.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeni/astra_s/install/astra_camera/share/astra_camera/package.zsh'
+[5.649s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeni/astra_s/install/astra_camera/share/colcon-core/packages/astra_camera)
+[5.649s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.649s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.649s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.649s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.696s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.696s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.696s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.705s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.747s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jeni/astra_s/install/local_setup.ps1'
+[5.747s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jeni/astra_s/install/_local_setup_util_ps1.py'
+[5.748s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jeni/astra_s/install/setup.ps1'
+[5.789s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jeni/astra_s/install/local_setup.sh'
+[5.789s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jeni/astra_s/install/_local_setup_util_sh.py'
+[5.789s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jeni/astra_s/install/setup.sh'
+[5.830s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jeni/astra_s/install/local_setup.bash'
+[5.830s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jeni/astra_s/install/setup.bash'
+[5.870s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jeni/astra_s/install/local_setup.zsh'
+[5.870s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jeni/astra_s/install/setup.zsh'
