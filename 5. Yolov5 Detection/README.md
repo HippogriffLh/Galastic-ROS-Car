@@ -1,7 +1,9 @@
 # 尖锐物体检测 
 astra_s: 奥比中光SDK\
-datasets: 尖锐物体数据集/coco128（yolov5原始数据集）\
+detection: yolov5模型与数据集\
 Results: yolov5尖锐物体识别训练结果\
+
+datasets: 尖锐物体数据集/coco128（yolov5原始数据集）\
 yolov5: 训练模型与相关配置文件
 
 # 奥比中光SDK安装方法 
