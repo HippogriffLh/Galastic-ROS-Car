@@ -1,0 +1,40 @@
+# 文件编译
+colcon build --packages-select
+colcon build --symlink-install
+colcon build && source ./install/setup.bash
+colcon build --packages-select explore_lite && source install/setup.bash
+
+# 启动Rviz，载入模型
+ros2 launch wheeled_robot_sim wheeled_robot_rviz.launch.py
+
+# Gazebo载入世界
+ros2 launch wheeled_robot_sim load_world_into_gazebo.launch.py world:=~/dev_ws/src/wheeled_robot_sim/worlds/car.world
+# 可使用的世界
+basic.world
+cafe.world
+car.world
+distribution_center.world
+factory.world
+farm.world
+inventory.world
+lawn.workd
+
+# 关闭Gazebo进程
+killall gazebo
+killall gzserver
+killall gzclient
+
+# urdf载入Gazebo
+ros2 launch wheeled_robot_sim launch_urdf_into_gazebo.launch.py world:=~/dev_ws/src/wheeled_robot_sim/worlds/car.world
+
+# 键盘控制
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
+# 建图启动
+ros2 launch two_wheeled_robot room_world_v1.launch.py slam:=True
+
+# 自主探索（explore_lite）
+# 没有初始探索
+ros2 launch explore_lite explore.launch.py
+# 含有初始探索
+ros2 launch explore_lite explore_with_init.launch.py
