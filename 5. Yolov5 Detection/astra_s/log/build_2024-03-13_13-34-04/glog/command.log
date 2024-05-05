@@ -1,6 +1,0 @@
-Invoking command in '/home/jeni/astra_s/build/glog': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/jeni/astra_s/glog-0.6.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jeni/astra_s/install/glog
-Invoked command in '/home/jeni/astra_s/build/glog' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/jeni/astra_s/glog-0.6.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jeni/astra_s/install/glog
-Invoking command in '/home/jeni/astra_s/build/glog': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/jeni/astra_s/build/glog -- -j20 -l20
-Invoked command in '/home/jeni/astra_s/build/glog' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/jeni/astra_s/build/glog -- -j20 -l20
-Invoking command in '/home/jeni/astra_s/build/glog': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/jeni/astra_s/build/glog
-Invoked command in '/home/jeni/astra_s/build/glog' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/jeni/astra_s/build/glog

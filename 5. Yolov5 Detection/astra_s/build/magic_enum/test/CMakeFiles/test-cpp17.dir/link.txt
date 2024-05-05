@@ -1,1 +1,0 @@
-/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/test-cpp17.dir/test.cpp.o  -o test-cpp17 

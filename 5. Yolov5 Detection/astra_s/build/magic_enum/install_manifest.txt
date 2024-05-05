@@ -1,7 +1,0 @@
-/home/jeni/astra_s/install/magic_enum/lib/cmake/magic_enum/magic_enumConfigVersion.cmake
-/home/jeni/astra_s/install/magic_enum/lib/cmake/magic_enum/magic_enumConfig.cmake
-/home/jeni/astra_s/install/magic_enum/./include/magic_enum_format.hpp
-/home/jeni/astra_s/install/magic_enum/./include/magic_enum.hpp
-/home/jeni/astra_s/install/magic_enum/./include/magic_enum_fuse.hpp
-/home/jeni/astra_s/install/magic_enum/./include/magic_enum_switch.hpp
-/home/jeni/astra_s/install/magic_enum/share/magic_enum/package.xml

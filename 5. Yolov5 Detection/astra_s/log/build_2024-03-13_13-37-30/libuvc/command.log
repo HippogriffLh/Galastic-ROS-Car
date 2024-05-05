@@ -1,4 +1,0 @@
-Invoking command in '/home/jeni/astra_s/build/libuvc': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/jeni/astra_s/build/libuvc -- -j20 -l20
-Invoked command in '/home/jeni/astra_s/build/libuvc' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/jeni/astra_s/build/libuvc -- -j20 -l20
-Invoking command in '/home/jeni/astra_s/build/libuvc': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/jeni/astra_s/build/libuvc
-Invoked command in '/home/jeni/astra_s/build/libuvc' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/jeni/astra_s/build/libuvc
