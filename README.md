@@ -15,4 +15,8 @@ ROS2版本：Galastic
 ## 资料
 ROS小车教程:  
 > 链接：https://pan.baidu.com/s/1UQ5ybLe55dHCHb1iOK6vKw?pwd=6xgt  
-> 提取码：6xgt
+> 提取码：6xgt 
+
+会议记录:
+> 链接：https://pan.baidu.com/s/17gDNT1ehX5h7Tn6WTrhfoQ?pwd=vw3e 
+> 提取码：vw3e
